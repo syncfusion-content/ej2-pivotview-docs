@@ -1,3 +1,4 @@
+var headerTooltip;
 var pivotTableObj = new ej.pivotview.PivotView({
     dataSourceSettings: {
         dataSource: pivotData,
