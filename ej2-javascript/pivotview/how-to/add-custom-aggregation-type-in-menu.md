@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Add a custom aggregation type to the menu in ##Platform_Name## Pivotview control | Syncfusion
-description: Learn here all about how to add a custom aggregation type to the menu in Syncfusion ##Platform_Name## Pivotview control of Syncfusion Essential JS 2 and more.
+title: Add custom aggregation type to the menu in ##Platform_Name## Pivotview control | Syncfusion
+description: Learn here all about how to add custom aggregation type to the menu in Syncfusion ##Platform_Name## Pivotview control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
-control: Add a custom aggregation type to the menu 
+control: Add custom aggregation type to the menu 
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 <!-- markdownlint-disable MD009 -->
 
-# Add a custom aggregation type to the menu in ##Platform_Name## Pivotview control
+# Add custom aggregation type to the menu in ##Platform_Name## Pivotview control
 
 By using the [dataBound](https://ej2.syncfusion.com/javascript/documentation/api/pivotview#databound) event, you can add your own custom aggregate type(s) to the pivot table's aggregate menu.
 
