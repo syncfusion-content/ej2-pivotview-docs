@@ -42,15 +42,23 @@ The following list of dependencies are required to use the pivot table component
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -58,9 +66,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -68,9 +80,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -84,18 +100,23 @@ Pivot Table component can be initialized using the following code. To get starte
 
 Place the following pivot table code in the `app.ts`.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { PivotView, IDataSet } from '@syncfusion/ej2-pivotview';
 
 
 let pivotTableObj: PivotView = new PivotView();
 pivotTableObj.appendTo('#PivotTable');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 Now, add an HTML div element which act as the pivot table element in `index.html` using the following code.
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,7 +131,9 @@ Now, add an HTML div element which act as the pivot table element in `index.html
     <div id="PivotTable"></div>
 </body>
 </html>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Assigning sample data to pivot table component
 
@@ -118,7 +141,9 @@ The sample data is assigned to the pivot table component through dataSource prop
 
 Place the following pivot table code in the `app.ts`.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { PivotView, IDataSet } from '@syncfusion/ej2-pivotview';
 
 let pivotData: IDataSet[] = [
@@ -135,7 +160,8 @@ let pivotTableObj: PivotView = new PivotView({
 });
 pivotTableObj.appendTo('#PivotTable');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding fields to row, column, values and filters axes
 
@@ -154,7 +180,9 @@ In-order to define each field in the respective axis, the following basic proper
 
 Place the following pivot table code in the `app.ts`.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { PivotView, IDataSet } from '@syncfusion/ej2-pivotview';
 
 let pivotData: IDataSet[] = [
@@ -176,11 +204,14 @@ let pivotTableObj: PivotView = new PivotView({
 });
 pivotTableObj.appendTo('#PivotTable');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 Now, add an HTML div element which act as the pivot table element in `index.html` using the following code.
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,7 +232,9 @@ Now, add an HTML div element which act as the pivot table element in `index.html
     <div id="pivotTable"></div>
 </body>
 </html>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Apply formatting to value fields
 
@@ -211,7 +244,9 @@ Formatting defines a way in which values should be displayed. For example, forma
 
 Place the following pivot table code in the `app.ts`.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { PivotView, IDataSet } from '@syncfusion/ej2-pivotview';
 
 let pivotData: IDataSet[] = [
@@ -234,7 +269,8 @@ let pivotTableObj: PivotView = new PivotView({
 });
 pivotTableObj.appendTo('#PivotTable');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Module injection
 
@@ -248,9 +284,13 @@ These modules should be injected into the pivot table using the `Inject` method 
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 PivotView.Inject(GroupingBar);
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Enable Grouping Bar
 
@@ -328,9 +368,13 @@ Place the following pivot table code in the `app.ts`.
 
 The quickstart project is configured to compile and run the application in the browser. Use the following command to run the application.
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm start
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 Output will be displayed as follows.
 
