@@ -60,15 +60,15 @@ PDF export provides option to customize mapping of pivot table to the exported P
 
 ### To add header and footer while exporting
 
-You can customize text, page number, line, page size and changing orientation in header and footer.
+You can customize text, page number, line, page size and changing orientation in header and footer of the exported document.
 
 #### To add a text in header/footer
 
 You can add text either in header or footer of the exported PDF document like in the below code example.
 
-```ts
+```js
 
-let pdfExportProperties: PdfExportProperties = {
+var pdfExportProperties = {
     header: {
         fromTop: 0,
         height: 130,
@@ -97,9 +97,9 @@ Supported line styles:
 * dashdotdot
 * solid
 
-```ts
+```js
 
-let pdfExportProperties: PdfExportProperties = {
+var pdfExportProperties = {
     header: {
         fromTop: 0,
         height: 130,
@@ -126,9 +126,9 @@ Supported page number types:
 * UpperRoman - I, II, III,
 * Number - 1,2,3.
 
-```ts
+```js
 
- let pdfExportProperties: PdfExportProperties = {
+var pdfExportProperties = {
     header: {
         fromTop: 0,
         height: 130,
@@ -163,9 +163,9 @@ The below code illustrates the PDF export customization options.
 
 You can add image (Base64 string) either in header or footer of the exported PDF document like in the below code example.
 
-```ts
+```js
 
-let pdfExportProperties: PdfExportProperties = {
+var pdfExportProperties = {
     header: {
         fromTop: 0,
         height: 130,
@@ -341,19 +341,15 @@ The available built-in fonts are,
 * Symbol 
 * ZapfDingbats 
 
-```ts
+```js
 
-import { PdfStandardFont, PdfFontFamily, PdfFontStyle } from '@syncfusion/ej2-pdf-export'; 
-
-    ...
-
-    let pdfExportProperties: PdfExportProperties = {
-         theme: { 
-                header: {font:  new PdfStandardFont(PdfFontFamily.TimesRoman, 11, PdfFontStyle.Bold) }, 
-                caption: { font: new PdfStandardFont(PdfFontFamily.TimesRoman, 9) }, 
-                record: { font: new PdfStandardFont(PdfFontFamily.TimesRoman, 10) } 
-            } 
-    };
+var pdfExportProperties = {
+    theme: {
+        header: { font: new ej.pdfexport.PdfStandardFont(ej.pdfexport.PdfFontFamily.TimesRoman, 11, ej.pdfexport.PdfFontStyle.Bold) },
+        caption: { font: new ej.pdfexport.PdfStandardFont(ej.pdfexport.PdfFontFamily.TimesRoman, 9) },
+        record: { font: new ej.pdfexport.PdfStandardFont(ej.pdfexport.PdfFontFamily.TimesRoman, 10) }
+    }
+};
 
 ```
 
