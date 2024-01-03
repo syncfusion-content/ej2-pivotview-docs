@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in Javascript Pivotview component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion Javascript Pivotview component of Syncfusion Essential JS 2 and more.
+title: Accessibility in Typescript Pivotview component | Syncfusion
+description: Learn here all about Accessibility in Syncfusion Typescript Pivotview component of Syncfusion Essential JS 2 and more.
 control: Accessibility 
-platform: ej2-javascript
+platform: ej2-Typescript
 documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Accessibility in Javascript Pivotview component
+# Accessibility in Typescript Pivotview component
 
 The pivot table component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 
@@ -237,4 +237,4 @@ The accessibility compliance of the pivot table component is shown in the follow
 
 ## See also
 
-* [Accessibility in Syncfusion EJ2 JavaScript components](../common/accessibility)
+* [Accessibility in Syncfusion EJ2 Typescript components](../common/accessibility)
