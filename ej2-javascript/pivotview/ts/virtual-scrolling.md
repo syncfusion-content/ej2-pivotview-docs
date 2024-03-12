@@ -30,6 +30,23 @@ To use the virtual scrolling feature, inject the `VirtualScroll` module in to th
           
 {% previewsample "page.domainurl/code-snippet/pivot-table/pivot-table-cs485" %}
 
+## Single Page Mode
+
+When virtual scrolling is enabled, the pivot table renders not only the current view page, but also the previous and next pages by default. This default behavior, however, can cause performance delays when dealing with a large number of rows and columns. This is because the same number of rows and columns from adjacent pages are also processed, resulting in additional computational load. This performance constraint can be avoided by setting the [allowSinglePage](https://ej2.syncfusion.com/documentation/api/pivotview/virtualScrollSettings/#allowSinglePage) property to **true** within the [virtualScrollSettings](https://ej2.syncfusion.com/documentation/api/pivotview/virtualScrollSettings/).
+
+Enabling this property causes the pivot table to render only the rows and columns that are relevant to the current view page during virtual scrolling. This optimization significantly improves the performance of the pivot table, particularly in Blazor WASM applications, during initial rendering and when performing UI actions such as drill up/down, sorting, filtering, and more.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/pivot-table/single-page-mode/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/pivot-table/single-page-mode/index.html %}
+{% endhighlight %}
+{% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/pivot-table/single-page-mode" %}
+
 **Limitations for virtual scrolling**
 
 * In virtual scrolling, the `columnWidth` property in `gridSettings` should be in pixel and percentage values are not accepted.
