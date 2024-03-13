@@ -8,6 +8,7 @@ var pivotTableObj = new ej.pivotview.PivotView({
         columns: [{ name: 'Year' }],
         values: [{ name: 'Price', caption: 'Unit Price' }, { name: 'Sold', caption: 'Unit Sold' }]
     },
+    width: '100%',
     height: 350,
     enableVirtualization: true,
     virtualScrollSettings: {
