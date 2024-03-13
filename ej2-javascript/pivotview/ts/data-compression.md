@@ -27,3 +27,15 @@ When we bind one million raw data, the pivot table will process all raw data to 
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/pivot-table/pivot-table-cs486" %}
+
+**Limitations during data compression**
+
+* The following aggregation types will not be supported.
+    * Average
+    * Populationstdev
+    * Samplestdev
+    * Populationvar
+    * Samplevar
+* If you use any of the aggregations above, it will result in an aggregation type **"Sum"**.
+* Distinctcount will act as **"Count"** aggregation type.
+* In the calculated field, an existing field can be inserted without altering its default aggregation type Even if we change it, it would use the default aggregation type back for calculation.

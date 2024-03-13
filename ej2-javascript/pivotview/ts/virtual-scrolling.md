@@ -57,18 +57,6 @@ Enabling this property causes the pivot table to render only the rows and column
 * When using OLAP data, subtotals and grandtotals are only displayed when measures are bound at the last position in the [`rows`](https://ej2.syncfusion.com/documentation/api/pivotview/dataSourceSettings/#rows) or [`columns`](https://ej2.syncfusion.com/documentation/api/pivotview/dataSourceSettings/#columns) axis. Otherwise, the data from the pivot table will be shown without summary totals.
 * Even if virtual scrolling is enabled, not only is the current view port data retrieved, but also the data for the immediate previous page and the immediate next page. As a result, when the end user scrolls slightly ahead or behind, the next or previous page data is displayed immediately without requiring a refresh. **Note:** If the pivot table's width and height are large, the loading data count in the current, previous, and next view ports (pages) will also increase, affecting performance.
 
-**Limitations during data compression**
-
-* The following aggregation types will not be supported.
-    * Average
-    * Populationstdev
-    * Samplestdev
-    * Populationvar
-    * Samplevar
-* If you use any of the aggregations above, it will result in an aggregation type **"Sum"**.
-* Distinctcount will act as **"Count"** aggregation type.
-* In the calculated field, an existing field can be inserted without altering its default aggregation type Even if we change it, it would use the default aggregation type back for calculation.
-
 ## Virtual scrolling for static field list
 
 Virtual scrolling automatically works with "Popup" field list on setting the [`enableVirtualization`](https://ej2.syncfusion.com/documentation/api/pivotview/#enablevirtualization) property in the Pivot Table to **true**. Incase of static field list, which act as a separate component, user need to enable [`enableVirtualization`](https://ej2.syncfusion.com/documentation/api/pivotview/#enablevirtualization) property in the Pivot Table and also pass the report information to pivot table instance via the [`load`](https://ej2.syncfusion.com/documentation/api/pivotview/#load) event of the field list.

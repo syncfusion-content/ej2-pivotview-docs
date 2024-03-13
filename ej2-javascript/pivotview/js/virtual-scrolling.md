@@ -57,18 +57,6 @@ Enabling this property causes the pivot table to render only the rows and column
           
 {% previewsample "page.domainurl/code-snippet/pivot-table/single-page-mode" %}
 
-**Limitations during data compression**
-
-* The following aggregation types will not be supported.
-    * Average
-    * Populationstdev
-    * Samplestdev
-    * Populationvar
-    * Samplevar
-* If you use any of the aggregations above, it will result in an aggregation type **"Sum"**.
-* Distinctcount will act as **"Count"** aggregation type.
-* In the calculated field, an existing field can be inserted without altering its default aggregation type Even if we change it, it would use the default aggregation type back for calculation.
-
 ## Virtual scrolling for static field list
 
 Virtual scrolling automatically works with "Popup" field list on setting the [`enableVirtualization`](https://ej2.syncfusion.com/javascript/documentation/api/pivotview/#enablevirtualization) property in the Pivot Table to **true**. Incase of static field list, which act as a separate component, user need to enable [`enableVirtualization`](https://ej2.syncfusion.com/javascript/documentation/api/pivotview/#enablevirtualization) property in the Pivot Table and also pass the report information to pivot table instance via the [`load`]((https://ej2.syncfusion.com/javascript/documentation/api/pivotview/#load)) event of the field list.
