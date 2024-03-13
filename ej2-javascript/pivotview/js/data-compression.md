@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 <!-- markdownlint-disable MD036 -->
 
-## Data Compression in ##Platform_Name## Pivotview control
+# Data Compression in ##Platform_Name## Pivotview control
 
 > This property is applicable only for relational data source.
 

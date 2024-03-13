@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-## Data Compression in ##Platform_Name## Pivotview control
+# Data Compression in ##Platform_Name## Pivotview control
 
 > This property is applicable only for relational data source.
 
