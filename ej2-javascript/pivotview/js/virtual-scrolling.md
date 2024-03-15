@@ -81,3 +81,8 @@ Virtual scrolling automatically works with "Popup" field list on setting the [`e
 {% previewsample "page.domainurl/code-snippet/pivot-table/field-list-cs9" %}
 
 > You can also explore our [Virtual Scrolling in JavaScript PivotTable](https://ej2.syncfusion.com/javascript/demos/#/material/pivot-table/virtual-scrolling.html) that showing a large number of records.
+
+## See also
+
+* [Paging in Syncfusion EJ2 Typescript components](./paging)
+* [Data Compression in Syncfusion EJ2 Typescript components](./data-compression)
