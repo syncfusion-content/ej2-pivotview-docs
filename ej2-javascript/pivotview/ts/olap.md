@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Olap in ##Platform_Name## PivotView control | Syncfusion
-description: Learn here all about Olap in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
+title: Olap in ##Platform_Name## Pivot Table component | Syncfusion
+description: Learn here all about Olap in Syncfusion ##Platform_Name## Pivot Table component of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Olap 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Olap in ##Platform_Name## PivotView control
+# Olap in ##Platform_Name## Pivot Table component
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Excel export in ##Platform_Name## PivotView control | Syncfusion
-description: Learn here all about Excel export in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
+title: Excel export in ##Platform_Name## Pivot Table component | Syncfusion
+description: Learn here all about Excel export in Syncfusion ##Platform_Name## Pivot Table component of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Excel export 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Excel export in ##Platform_Name## PivotView control
+# Excel export in ##Platform_Name## Pivot Table component
 
 The Excel export allows pivot table data to export as Excel document. To enable Excel export in the pivot table, set the `allowExcelExport` as **true**. You need to use the `excelExport` method for Excel exporting.
 

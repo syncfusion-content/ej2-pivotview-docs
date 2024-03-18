@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtual scrolling in ##Platform_Name## PivotView control | Syncfusion
-description: Learn here all about Virtual scrolling in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
+title: Virtual scrolling in ##Platform_Name## Pivot Table component | Syncfusion
+description: Learn here all about Virtual scrolling in Syncfusion ##Platform_Name## Pivot Table component of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Virtual scrolling 
 publishingplatform: ##Platform_Name##
@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 <!-- markdownlint-disable MD036 -->
 
-# Virtual scrolling in ##Platform_Name## PivotView control
+# Virtual scrolling in ##Platform_Name## Pivot Table component
 
 ## Virtual scrolling
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Compression in ##Platform_Name## PivotView control | Syncfusion
-description: Learn here all about data compression in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
+title: Data Compression in ##Platform_Name## Pivot Table component | Syncfusion
+description: Learn here all about data compression in Syncfusion ##Platform_Name## Pivot Table component of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Data Compression 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Data Compression in ##Platform_Name## PivotView control
+# Data Compression in ##Platform_Name## Pivot Table component
 
 > This property is applicable only for relational data source.
 
