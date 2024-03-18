@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pdf export in ##Platform_Name## Pivotview control | Syncfusion
-description: Learn here all about Pdf export in Syncfusion ##Platform_Name## Pivotview control of Syncfusion Essential JS 2 and more.
+title: Pdf export in ##Platform_Name## PivotView control | Syncfusion
+description: Learn here all about Pdf export in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Pdf export 
 publishingplatform: ##Platform_Name##
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Pdf export in ##Platform_Name## Pivotview control
+# Pdf export in ##Platform_Name## PivotView control
 
 PDF export allows exporting pivot table data as PDF document. To enable PDF export in the pivot table, set the `allowPdfExport` as true. You need to use the `pdfExport` method for PDF exporting.
 
