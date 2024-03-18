@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Virtual scrolling in ##Platform_Name## Pivotview control | Syncfusion
-description: Learn here all about Virtual scrolling in Syncfusion ##Platform_Name## Pivotview control of Syncfusion Essential JS 2 and more.
+title: Virtual scrolling in ##Platform_Name## PivotView control | Syncfusion
+description: Learn here all about Virtual scrolling in Syncfusion ##Platform_Name## PivotView control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Virtual scrolling 
 publishingplatform: ##Platform_Name##
@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 <!-- markdownlint-disable MD036 -->
 
-# Virtual scrolling in ##Platform_Name## Pivotview control
+# Virtual scrolling in ##Platform_Name## PivotView control
 
 ## Virtual Scrolling
 
@@ -30,11 +30,11 @@ To use the virtual scrolling feature, inject the `VirtualScroll` module in to th
           
 {% previewsample "page.domainurl/code-snippet/pivot-table/pivot-table-cs485" %}
 
-## Single Page Mode
+## Virtual scrolling with single page mode
 
 When virtual scrolling is enabled, the pivot table renders not only the current view page, but also the previous and next pages by default. This default behavior, however, can cause performance delays when dealing with a large number of rows and columns. This is because the same number of rows and columns from adjacent pages are also processed, resulting in additional computational load. This performance constraint can be avoided by setting the [allowSinglePage](https://ej2.syncfusion.com/documentation/api/pivotview/virtualScrollSettings/#allowSinglePage) property to **true** within the [virtualScrollSettings](https://ej2.syncfusion.com/documentation/api/pivotview/virtualScrollSettings/).
 
-Enabling this property causes the pivot table to render only the rows and columns that are relevant to the current view page during virtual scrolling. This optimization significantly improves the performance of the pivot table, particularly in Blazor WASM applications, during initial rendering and when performing UI actions such as drill up/down, sorting, filtering, and more.
+Enabling this property causes the pivot table to render only the rows and columns that are relevant to the current view page during virtual scrolling. This optimization significantly improves the performance of the pivot table, during initial rendering and when performing UI actions such as drill up/down, sorting, filtering, and more.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
